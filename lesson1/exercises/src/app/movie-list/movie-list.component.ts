@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-   selector: 'movie-list',
-   templateUrl: './movie-list.component.html',
-   styleUrls: ['./movie-list.component.css']
+  selector: "movie-list",
+  templateUrl: "./movie-list.component.html",
+  styleUrls: ["./movie-list.component.css"],
 })
 export class MovieListComponent implements OnInit {
-   movies = ['The Manchurian Candidate', 'Oceans 8'];
+  movies = ["The Manchurian Candidate", "Oceans 8", "A Quiet Place 2", "Soul"];
 
-   constructor() { }
+  constructor() {}
 
-   ngOnInit() {
-   }
-
+  ngOnInit() {}
 }
